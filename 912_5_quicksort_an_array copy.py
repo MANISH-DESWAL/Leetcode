@@ -1,6 +1,6 @@
 #Quick sort an array
 #Time Cmplecity: O(nlog(n)) for avg and best case and O(n**2) for worst case
-#Space Complexity: O(log(n)) for avg and best case and O(n) for worst
+#Space Complexity: O(log(n)) for avg and best case and O(n) for worst case
 
 class Solution:
     def partition(self,nums,l,r):
