@@ -1,5 +1,6 @@
 #Merge Sort
 #here We mainly focus on sorting with recursive algo.
+#It has O(n**2) TC for all cases and space complexity O(1)
 class Solution:
     def merge(self,nums,l,mid,r):
         
