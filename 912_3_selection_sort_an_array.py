@@ -1,4 +1,5 @@
 #selection sorting
+#it has  O(n**2) tc for all cases and O(1) SC
 
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
