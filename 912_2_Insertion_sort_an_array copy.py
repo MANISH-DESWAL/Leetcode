@@ -1,4 +1,5 @@
-#bubble Sort
+#insertion Sort
+#TC - O(n**2) for all TCs and O(1) SC
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         n=len(nums)
