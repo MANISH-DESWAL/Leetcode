@@ -4,6 +4,7 @@ and TC for it is O(n+k)
 Here we take an other array let b which has - (the length max of given array let a) +1
 which has zero values in it 
 for every iterationn in a we increase the index value(where a value is ) of b by one
+
 '''
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
@@ -22,4 +23,4 @@ class Solution:
                 
 
 a=Solution()
-print(a.sortArray([3,2,6,5,4,10,3,1,8,11,8,9,7,6]))
+print(a.sortArray([3,2,6,5,4,10,3,1,8,11,8,9,7,6])) 
